@@ -1,65 +1,73 @@
-# Qwik City App ⚡️
+# My Page Project
 
-- [Qwik Docs](https://qwik.dev/)
-- [Discord](https://qwik.dev/chat)
-- [Qwik GitHub](https://github.com/QwikDev/qwik)
-- [@QwikDev](https://twitter.com/QwikDev)
-- [Vite](https://vitejs.dev/)
+This project is built using Deno, Vite, and Qwik. It serves as a template for building modern web applications with these technologies.
 
----
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Deno](https://deno.land/)
+- [npm](https://www.npmjs.com/)
+
+### Installation
+
+1. Clone the repository:
+
+    ```sh
+    git clone https://github.com/rafatiburciorst/dino-page.git
+    cd my-page
+    ```
+
+2. Install dependencies:
+
+    ```sh
+    npm install
+    ```
+
+### Running the Development Server
+
+To start the development server, run:
+
+```sh
+npm run dev
+```
+
+This will start the Vite development server and you can view your application at `http://localhost:5173`.
+
+### Building for Production
+
+To build the project for production, run:
+
+```sh
+npm run build
+```
+
+This will create a `dist` directory with the production build of your application.
+
+### Linting
+
+To lint your code, run:
+
+```sh
+npm run lint
+```
+
+This will run ESLint on your codebase to ensure code quality and consistency.
 
 ## Project Structure
 
-This project is using Qwik with [QwikCity](https://qwik.dev/qwikcity/overview/). QwikCity is just an extra set of tools on top of Qwik to make it easier to build a full site, including directory-based routing, layouts, and more.
+- `src/`: Contains the source code of the application.
+- `public/`: Contains static assets.
+- `vite.config.ts`: Vite configuration file.
+- `.eslintrc.cjs`: ESLint configuration file.
+- `tsconfig.json`: TypeScript configuration file.
 
-Inside your project, you'll see the following directory structure:
+## Contributing
 
-```
-├── public/
-│   └── ...
-└── src/
-    ├── components/
-    │   └── ...
-    └── routes/
-        └── ...
-```
+Contributions are welcome! Please open an issue or submit a pull request for any changes.
 
-- `src/routes`: Provides the directory-based routing, which can include a hierarchy of `layout.tsx` layout files, and an `index.tsx` file as the page. Additionally, `index.ts` files are endpoints. Please see the [routing docs](https://qwik.dev/qwikcity/routing/overview/) for more info.
+## License
 
-- `src/components`: Recommended directory for components.
-
-- `public`: Any static assets, like images, can be placed in the public directory. Please see the [Vite public directory](https://vitejs.dev/guide/assets.html#the-public-directory) for more info.
-
-## Add Integrations and deployment
-
-Use the `deno qwik add` command to add additional integrations. Some examples of integrations includes: Cloudflare, Netlify or Express Server, and the [Static Site Generator (SSG)](https://qwik.dev/qwikcity/guides/static-site-generation/).
-
-```shell
-deno qwik add # or `deno qwik add`
-```
-
-## Development
-
-Development mode uses [Vite's development server](https://vitejs.dev/). The `dev` command will server-side render (SSR) the output during development.
-
-```shell
-npm start # or `deno start`
-```
-
-> Note: during dev mode, Vite may request a significant number of `.js` files. This does not represent a Qwik production build.
-
-## Preview
-
-The preview command will create a production build of the client modules, a production build of `src/entry.preview.tsx`, and run a local server. The preview server is only for convenience to preview a production build locally and should not be used as a production server.
-
-```shell
-deno preview # or `deno preview`
-```
-
-## Production
-
-The production build will generate client and server modules by running both client and server build commands. The build command will use Typescript to run a type check on the source code.
-
-```shell
-deno build # or `deno build`
-```
+This project is licensed under the MIT License.
