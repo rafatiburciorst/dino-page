@@ -1,0 +1,195 @@
+
+[
+    {
+      "name": "Tyrannosaurus Rex",
+      "description": "Um dinossauro carnívoro maciço com mandíbulas poderosas e braços pequenos."
+    },
+    {
+      "name": "Brachiosaurus",
+      "description": "Um enorme dinossauro herbívoro com um pescoço muito longo."
+    },
+    {
+      "name": "Velociraptor",
+      "description": "Um pequeno mas feroz predador que caçava em bandos."
+    },
+    {
+      "name": "Triceratops",
+      "description": "Um dinossauro herbívoro com três chifres distintos e uma grande gola óssea."
+    },
+    {
+      "name": "Stegosaurus",
+      "description": "Um grande dinossauro herbívoro com placas distintivas ao longo de suas costas e uma cauda com espinhos."
+    },
+    {
+      "name": "Spinosaurus",
+      "description": "Um dinossauro carnívoro maciço com uma estrutura semelhante a uma vela em suas costas."
+    },
+    {
+      "name": "Ankylosaurus",
+      "description": "Um herbívoro fortemente blindado com uma cauda em forma de clava usada para defesa."
+    },
+    {
+      "name": "Pterodactyl",
+      "description": "Um réptil voador com uma longa envergadura de asas, não é tecnicamente um dinossauro, mas está intimamente relacionado."
+    },
+    {
+      "name": "Diplodocus",
+      "description": "Um dinossauro herbívoro de pescoço longo com uma cauda semelhante a um chicote."
+    },
+    {
+      "name": "Allosaurus",
+      "description": "Um grande dinossauro carnívoro com dentes e garras afiadas."
+    },
+    {
+      "name": "Iguanodon",
+      "description": "Um dinossauro herbívoro conhecido por seus espinhos nos polegares."
+    },
+    {
+      "name": "Parasaurolophus",
+      "description": "Um dinossauro herbívoro com uma crista distinta usada para comunicação."
+    },
+    {
+      "name": "Carnotaurus",
+      "description": "Um dinossauro carnívoro com chifres curtos e um corpo leve."
+    },
+    {
+      "name": "Gallimimus",
+      "description": "Um dinossauro parecido com um avestruz, rápido e onívoro."
+    },
+    {
+      "name": "Pachycephalosaurus",
+      "description": "Um dinossauro com um crânio grosso em forma de cúpula usado para cabeçadas."
+    },
+    {
+      "name": "Megalosaurus",
+      "description": "Um dos primeiros dinossauros descobertos, um grande carnívoro."
+    },
+    {
+      "name": "Compsognathus",
+      "description": "Um pequeno dinossauro do tamanho de uma galinha, rápido predador."
+    },
+    {
+      "name": "Archaeopteryx",
+      "description": "Uma espécie de transição entre dinossauros e aves modernas."
+    },
+    {
+      "name": "Coelophysis",
+      "description": "Um dos primeiros dinossauros conhecidos, um carnívoro esbelto."
+    },
+    {
+      "name": "Dreadnoughtus",
+      "description": "Um enorme dinossauro saurópode de pescoço longo."
+    },
+    {
+      "name": "Edmontosaurus",
+      "description": "Um dinossauro herbívoro de bico de pato que vivia em grandes rebanhos."
+    },
+    {
+      "name": "Therizinosaurus",
+      "description": "Um dinossauro herbívoro com longos membros anteriores com garras."
+    },
+    {
+      "name": "Utahraptor",
+      "description": "Um grande predador com penas, parente próximo do Velociraptor."
+    },
+    {
+      "name": "Giganotosaurus",
+      "description": "Um dinossauro carnívoro gigante maior que o Tyrannosaurus Rex."
+    },
+    {
+      "name": "Argentinosaurus",
+      "description": "Um dos maiores dinossauros herbívoros já descobertos."
+    },
+    {
+      "name": "Deinonychus",
+      "description": "Um predador rápido e com garras, semelhante ao Velociraptor."
+    },
+    {
+      "name": "Euoplocephalus",
+      "description": "Um dinossauro herbívoro fortemente blindado com uma cauda em forma de clava."
+    },
+    {
+      "name": "Shunosaurus",
+      "description": "Um saurópode com uma cauda com espinhos para defesa."
+    },
+    {
+      "name": "Mosasaurus",
+      "description": "Um réptil marinho maciço que dominava os mares."
+    },
+    {
+      "name": "Plesiosaurus",
+      "description": "Um réptil marinho com um pescoço longo e nadadeiras."
+    },
+    {
+      "name": "Ichthyosaurus",
+      "description": "Um réptil marinho semelhante a um golfinho."
+    },
+    {
+      "name": "Quetzalcoatlus",
+      "description": "Um réptil voador gigante, um dos maiores pterossauros."
+    },
+    {
+      "name": "Dimorphodon",
+      "description": "Um pequeno réptil voador com uma cabeça de formato distinto."
+    },
+    {
+      "name": "Eoraptor",
+      "description": "Um dos primeiros dinossauros, um pequeno predador onívoro."
+    },
+    {
+      "name": "Troodon",
+      "description": "Um pequeno dinossauro inteligente com excelente visão."
+    },
+    {
+      "name": "Ceratosaurus",
+      "description": "Um dinossauro carnívoro com um chifre no nariz."
+    },
+    {
+      "name": "Plateosaurus",
+      "description": "Um grande dinossauro herbívoro primitivo."
+    },
+    {
+      "name": "Herrerasaurus",
+      "description": "Um dos dinossauros carnívoros mais antigos conhecidos."
+    },
+    {
+      "name": "Maiasaura",
+      "description": "Um dinossauro de bico de pato conhecido por cuidar de seus filhotes."
+    },
+    {
+      "name": "Corythosaurus",
+      "description": "Um dinossauro herbívoro com uma crista que lembra um capacete."
+    },
+    {
+      "name": "Apatosaurus",
+      "description": "Um saurópode de pescoço longo, anteriormente conhecido como Brontossauro."
+    },
+    {
+      "name": "Cryolophosaurus",
+      "description": "Um dinossauro carnívoro com uma crista distinta, encontrado na Antártida."
+    },
+    {
+      "name": "Albertosaurus",
+      "description": "Um parente menor do Tyrannosaurus Rex."
+    },
+    {
+      "name": "Oviraptor",
+      "description": "Um pequeno dinossauro semelhante a um pássaro, considerado um ladrão de ovos."
+    },
+    {
+      "name": "Microraptor",
+      "description": "Um pequeno dinossauro com penas capaz de planar entre as árvores."
+    },
+    {
+      "name": "Titanosaurus",
+      "description": "Um grupo de dinossauros herbívoros enormes de pescoço longo."
+    },
+    {
+      "name": "Rhamphorhynchus",
+      "description": "Um pequeno réptil voador com uma longa cauda."
+    },
+    {
+      "name": "Sarcosuchus",
+      "description": "Um crocodilo pré-histórico gigante."
+    }
+  ]
