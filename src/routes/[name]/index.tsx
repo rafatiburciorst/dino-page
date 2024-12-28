@@ -1,18 +1,15 @@
 import { component$ } from "@builder.io/qwik";
 import { Link, routeLoader$ } from "@builder.io/qwik-city";
 import type { Dino } from "~/@types/types";
-import data from "~/data/dinosaurs.json" with { type: "json" };
 
-export const useDinosaurDetails = routeLoader$(({ params }): Dino => {
-	const dinosaurs = data;
-	const dinosaur = dinosaurs.find(
-		(dino: Dino) => dino.name.toLowerCase() === params.name.toLowerCase(),
-	);
-  if (!dinosaur) {
-    throw new Error("Dinosaur not found");
+export const useDinosaurDetails = routeLoader$(async ({ params }): Promise<Dino> => {
+  const { name } = params
+  if (!name) {
+    throw new Error("Dinosaur name is required")
   }
-
-  return dinosaur
+  const response = await fetch(`http://localhost:5173/api/dinosaurs/${name}`)
+  const data = await response.json() as Dino
+  return data
 });
 
 export default component$(() => {
@@ -22,7 +19,7 @@ export default component$(() => {
     <h1 class="text-3xl font-bold mb-4">{dinosaurSignal.value.name}</h1>
     <p class="mb-4">{dinosaurSignal.value.description}</p>
     <Link href="/" class="text-blue-600 hover:underline">
-      Back to all dinosaurs
+      Retornar
     </Link>
   </div>
   );

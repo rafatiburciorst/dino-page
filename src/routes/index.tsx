@@ -1,11 +1,12 @@
 import { component$ } from "@builder.io/qwik";
 import { Link, routeLoader$ } from "@builder.io/qwik-city";
 import type { Dino } from "~/@types/types";
-import data from "~/data/dinosaurs.json" with { type: "json" };
 import type { DocumentHead } from "@builder.io/qwik-city";
 
-export const useDinosaurs = routeLoader$(() => {
-	return data;
+export const useDinosaurs = routeLoader$(async () => {
+	const response = await fetch('http://localhost:5173/api/dinosaurs')
+	const data = await response.json() as Dino[]
+	return data
 });
 
 export default component$(() => {
